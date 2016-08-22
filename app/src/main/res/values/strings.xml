@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sensor Test:</string>
+    <string name="LinearAccelLabel">TYPE_LINEAR_ACCELERATION: </string>
+    <string name="xTextL">X: </string>
+    <string name="yTextL">Y: </string>
+    <string name="zTextL">Z: </string>
+    <string name="AccelLabel">TYPE_ACCELEROMETER: </string>
+    <string name="xTextA">X: </string>
+    <string name="yTextA">Y: </string>
+    <string name="zTextA">Z: </string>
+    <string name ="GyroLabel">TYPE_GYROSCOPE:</string>
+    <string name="xTextG">X: </string>
+    <string name="yTextG">Y: </string>
+    <string name="zTextG">Z: </string>
+</resources>

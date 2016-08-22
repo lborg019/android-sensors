@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.lab.st2.MainActivity">
+
+    <!-- LinearAcceleration X -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/xTextL"
+        android:id="@+id/xTextL"
+        android:layout_below="@+id/LinearAccelLabel"
+        android:layout_alignParentStart="true" />
+
+    <!-- LinearAcceleration Y -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yTextL"
+        android:id="@+id/yTextL"
+        android:layout_below="@+id/xTextL"
+        android:layout_alignParentLeft="true" />
+
+    <!-- LinearAcceleration Z -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zTextL"
+        android:id="@+id/zTextL"
+        android:layout_below="@+id/yTextL"
+        android:layout_alignParentLeft="true" />
+
+    <!-- LinearAcceleration Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/LinearAccelLabel"
+        android:id="@+id/LinearAccelLabel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <!-- Acceleration Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/AccelLabel"
+        android:id="@+id/AccelLabel"
+        android:layout_below="@+id/zTextL"
+        android:layout_alignParentStart="true" />
+
+    <!-- Acceleration X -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/xTextA"
+        android:id="@+id/xTextA"
+        android:layout_below="@+id/AccelLabel"
+        android:layout_alignParentStart="true" />
+
+    <!-- Acceleration Y -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yTextA"
+        android:id="@+id/yTextA"
+        android:layout_below="@+id/xTextA"
+        android:layout_alignParentLeft="true" />
+
+    <!-- Acceleration Z -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zTextA"
+        android:id="@+id/zTextA"
+        android:layout_below="@+id/yTextA"
+        android:layout_alignParentLeft="true" />
+
+    <!-- GyroLabel -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/GyroLabel"
+        android:id="@+id/GyroLabel"
+        android:layout_below="@+id/zTextA"
+        android:layout_alignParentStart="true" />
+
+    <!-- Gyro X -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/xTextG"
+        android:id="@+id/xTextG"
+        android:layout_below="@+id/GyroLabel"
+        android:layout_alignParentStart="true" />
+
+    <!-- Gyro Y -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yTextG"
+        android:id="@+id/yTextG"
+        android:layout_below="@+id/xTextG"
+        android:layout_alignParentLeft="true" />
+
+    <!-- Gyro Z -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zTextG"
+        android:id="@+id/zTextG"
+        android:layout_below="@+id/yTextG"
+        android:layout_alignParentLeft="true" />
+</RelativeLayout>
